@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Programming | Sua Kim | Final Project</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script >
+		let clr = ["#ff0000", "#161515","#3cb371"];
+		document.querySelector("div").addEventListener(
+		   "click", function () {
+			  document.querySelector("div").style.background
+			  = clr[Math.floor(Math.random() * clr.length)];
+		})
+	 </script>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="item">
+			<p>about</p>
+		</div>
+		<div class="item">
+			<p>map</p>
+		</div>
+		<div class="item2">
+			<h1>HISTORY</h1>
+			<img src="Group 28.png" alt="sign" class="image">
+		</div>
+		<div class="item">
+			<p>ar</p>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
